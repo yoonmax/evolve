@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>evolve</title>
+    <meta name="description" content="Watch artificial creatures learn to move through physics and evolution. A genetic algorithm in your browser, on real rigid-body physics." />
+    <meta name="theme-color" content="#F2F0E9" />
+    <meta property="og:title" content="evolve" />
+    <meta property="og:description" content="Watch artificial creatures learn to move through physics and evolution." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://evolve-creatures.vercel.app" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="https://evolve-creatures.vercel.app/og.png" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script>
+      // Set the theme before first paint, so that dark-mode visitors never see a flash.
+      try {
+        var t = localStorage.getItem('evolve:theme');
+        if (t === 'dark' || (t !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.dataset.theme = 'dark';
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/app/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+:root {
+  --paper: #F2F0E9;
+  --sheet: #F8F7F2;
+  --ink: #26282B;
+  --ink-soft: #686A65;
+  --line: #D9D5C9;
+  --tick: #C5C1B3;
+  --ground: #E5E1D4;
+  --ground-line: #2F3134;
+  --ridge-far: #ECEAE1;
+  --ridge-near: #E8E5DA;
+  --ice: #5E93AE;
+  --accent: #1C7263;
+  --accent-soft: #D7E5DE;
+  --ochre: #A97C22;
+  --danger: #A23D3D;
+  --debug: #2E6FA8;
+  --contact: #B4422F;
+  --motor-plus: #1C7263;
+  --motor-minus: #8C5C7E;
+  --shadow: #2A2A28;
+  --on-ink: #F8F7F2;
+  --focus: #1C7263;
+
+  --font-display: 'Bricolage Grotesque Variable', 'Helvetica Neue', Arial, sans-serif;
+  --font-ui: 'Hanken Grotesk Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --step--1: 0.8125rem;
+  --step-0: 0.9375rem;
+  --step-1: 1.125rem;
+  --step-2: 1.5rem;
+  --step-3: 2.25rem;
+  --step-4: 3.5rem;
+  --step-5: 5.5rem;
+
+  --radius-control: 8px;
+  --radius-sheet: 14px;
+  --nav-height: 52px;
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --paper: #1E2022;
+  --sheet: #26282B;
+  --ink: #ECE8DE;
+  --ink-soft: #A3A49D;
+  --line: #3A3C3E;
+  --tick: #4C4E4F;
+  --ground: #292B2D;
+  --ground-line: #CFCBC0;
+  --ridge-far: #222426;
+  --ridge-near: #25272A;
+  --ice: #7FB6D1;
+  --accent: #63C2AC;
+  --accent-soft: #2B4641;
+  --ochre: #D5AB57;
+  --danger: #E08A8A;
+  --debug: #7DB3E0;
+  --contact: #EE8C78;
+  --motor-plus: #63C2AC;
+  --motor-minus: #C79BBB;
+  --shadow: #000000;
+  --on-ink: #1E2022;
+  --focus: #63C2AC;
+  color-scheme: dark;
+}
